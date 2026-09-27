@@ -1,0 +1,4 @@
+interface:
+  display_name: "Astro Knowledge"
+  short_description: "Consultar, documentar e organizar o astro-knowledge"
+  default_prompt: "Use $astro-knowledge para consultar a documentação do projeto, registrar conhecimento em Markdown e organizar pastas por assunto conforme meu pedido."
