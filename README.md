@@ -6,6 +6,22 @@ Base compartilhada de documentação e anotações da equipe Astro. Os documento
 
 Comece pelo [índice das anotações funcionais](docs/astro/README.md), organizadas a partir do memorial de 23/09/2026. O índice reúne as regras por tema, os fluxos e as pendências, com acesso ao documento original preservado.
 
+## Site de leitura
+
+O site está em [`site/`](site/README.md), com navegação por pastas, busca no conteúdo e leitura de Markdown. Novos documentos são descobertos automaticamente, sem cadastrar páginas.
+
+Para abrir localmente:
+
+```powershell
+cd site
+npm install
+npm run dev
+```
+
+Abra `http://127.0.0.1:5173`. Consulte o [guia do site](site/README.md) para build, atualização de documentos e testes.
+
+O [workflow de publicação](.github/workflows/deploy-site.yml) atualiza o site no GitHub Pages quando mudanças entram na `main`, incluindo novas notas e pastas. Para a primeira publicação, selecione **GitHub Actions** em **Settings → Pages → Source** do repositório e siga o [guia de ativação](site/README.md#publicação-automática-no-github-pages).
+
 ## Skill astro-knowledge
 
 A [skill astro-knowledge](.agents/skills/astro-knowledge/SKILL.md) acompanha o repositório em `.agents/skills/astro-knowledge/`. Ela adapta o fluxo da skill `cerebro` para esta base compartilhada, sem depender de um cofre Obsidian ou de um caminho fixo no computador.
